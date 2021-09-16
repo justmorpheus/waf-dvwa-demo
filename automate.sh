@@ -5,7 +5,7 @@ apt install apache2 -y
 cd  /var/www/html/
 sudo wget https://github.com/justmorpheus/waf-dvwa/raw/main/DVWA.zip
 apt install unzip -y
-unzip dvwa.zip
+unzip DVWA.zip
 apt install mysql-server -y
 apt install php -y 
 apt install php-mysqli -y
